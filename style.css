@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+  margin: 40px 0;
+}
+header h1 {
+  text-align: center;
+  color: #04aa6d;
+  font-size: 32px;
+}
+header h5 {
+  text-align: center;
+  font-size: 18px;
+}
+section {
+  padding: 80px 0px;
+  width: 100%;
+  background-color: #282a35;
+  color: white;
+  margin: 16px 0;
+}
+section div {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+section h1 {
+  font-size: 100px;
+}
+section h5 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+section div a {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #04aa6d;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.p {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+section div img {
+  width: 450px;
+}
+.b {
+  padding: 80px 0px;
+  width: 100%;
+  background-color: #d9eee1;
+  color: black;
+  margin: 16px 0;
+}
+.b img {
+  width: 450px;
+}
+.z {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #04aa6d;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.u {
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+.o {
+  text-align: center;
+  background-color: #282a35;
+  color: white;
+  padding: 40px 0;
+}
